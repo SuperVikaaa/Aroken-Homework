@@ -1,0 +1,25 @@
+.block-1{
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  font-style: italic;
+}
+.block-2{
+  text-decoration: line-through;
+  font-weight: 600;
+}
+.block-3{
+  text-align: center;
+  text-transform: uppercase;
+}
+.block-4{
+  text-decoration: overline wavy purple;
+  color: purple;
+  word-spacing: 30px;
+  font-weight: bold;
+}
+.block-5{
+  text-decoration: underline double;
+  letter-spacing: 5px;
+}
