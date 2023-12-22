@@ -5,7 +5,7 @@
 .parent{
 background-color: #d4b6d865;
 overflow: auto;
-width: 1300px;
+max-width: 1300px;
 height: 350px;
 border:1px solid #383736; 
 border-top-left-radius: 20px;
