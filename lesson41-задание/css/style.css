@@ -1,0 +1,27 @@
+body{
+  background: rgb(175, 167, 167);
+  font-size: 30px;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+h1{
+  font-family: 'Fredoka', arial, sans-serif;
+  text-align: center;
+  text-shadow:5px 3px #77d828;
+  color: white;
+  max-width: -2px;
+}
+
+.block{
+  margin: 3vw;
+  width: 150vh;
+  height: 70vh;
+  box-shadow: 0 0.5vw 3vw #77d828;
+  border-radius: 2vw;
+  background:#a6aabd url("../images/froggy.png") no-repeat;
+  background-size: cover;
+  background-position: -9% 0%;
+}
