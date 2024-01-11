@@ -1,0 +1,38 @@
+body{
+  background: #131212;
+}
+
+.info__text{
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  color: #f8efef;
+  font-size: 2rem;
+}
+
+.object__inner{
+  display: flex;
+  justify-content:flex-end;
+  margin-top: 500px;
+}
+
+.object__rectangle{
+  height: 100px;
+  width: 800px;
+  border-radius: 10px;
+  background: #f8efef;
+  position: absolute;
+  left: 50%;
+  right: 50px;
+  bottom: 100px;
+}
+
+.object__circle{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: #bd2c2c;
+  position: relative;
+  right: 750px;
+  bottom: 75px;
+}
