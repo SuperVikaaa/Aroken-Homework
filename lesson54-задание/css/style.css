@@ -18,7 +18,6 @@ body{
 
 .object__rectangle{
   min-height: 100px;
-  width: 800px;
   border-radius: 10px;
   background: #f8efef;
   position: fixed;
