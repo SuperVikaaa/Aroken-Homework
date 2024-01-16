@@ -45,7 +45,11 @@ body{
     text-transform: uppercase;
 }
 
-.button, .button-1:hover{
+.button:hover{
+    background: gold;
+}
+
+.button-1:hover{
     background: gold;
 }
 
