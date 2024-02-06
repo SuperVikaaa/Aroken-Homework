@@ -21,12 +21,10 @@
 // =============================================================//
 
 function calcSum(num1, num2, sign) {
-  let sign'plus' = num1 + num2;
-  let sign = num1 - num2;
-  let sign = num1 * num2;
-  let sign = num1 / num2;
-
-  return sign;
+  if (sign == 'plus') return num1 + num2;
+  if (sign == 'minus') return num1 - num2;
+  if (sign == 'multiplying') return num1 * num2;
+  if (sign == 'division') return num1 / num2;
 }
 
 const result = calcSum(5, 6, 'plus')
