@@ -1,6 +1,7 @@
 :root {
     --font-family: "Montserrat", sans-serif;
     --second-family: "Gabriola", sans-serif;
+    --transition: all .4s;
 
     --akcentnyy: #ffa55c;
 	--akcentnyy-2: #ceaad0;
@@ -64,7 +65,7 @@
     font-weight: 500;
     line-height: 1.6;
 
-    transition: all .4s;
+    transition: var(--transition);
 }
 
 .button:hover {
@@ -88,7 +89,7 @@
     height: 3px;
     border-radius: 100px;
     background: var(--nabornyy);
-    transition: all .4s;
+    transition: var(--transition);
 }
 
 .burger-icon span {
@@ -173,7 +174,7 @@
     z-index: -1;
 
     opacity: 0;
-    transition: all .4s;
+    transition: var(--transition);
 }
 
 .nav__link:hover::before {
@@ -294,7 +295,7 @@
     inset: 5px;
 
     opacity: 0;
-    transition: all .4s;
+    transition: var(--transition);
 }
 
 .hero__img-button:hover:before {
@@ -446,7 +447,7 @@
         transform: translateY(-50%);
         opacity: 0;
         visibility: hidden;
-        transition: all .4s;
+        transition: var(--transition);
     }
 
     .nav__list {
