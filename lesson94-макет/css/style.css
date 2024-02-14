@@ -329,7 +329,7 @@
 
 .footer__inner {
     display: grid;
-    gap: 15px;
+    gap: 40px 15px;
     justify-content: space-between;
     grid-template-columns: .9fr .9fr 1.1fr auto;
 }
