@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Атлант Газ</title>
+</head>
+
+<body class="body">
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__top">
+                <div class="container">
+                    <div class="header__top-inner">
+                        <div class="header__left">
+                            <a class="header__logo" href="/">
+                                <img src="img/icon/logo.svg" width="269" height="98" alt="Логотип компании Атлант Газ">
+                            </a>
+                            <div class="header__desc">
+                                <div class="header__desc-line"></div>
+                                <div class="header__desc-text">
+                                    Расправь плечи в теплом доме
+                                </div>
+                            </div>
+                        </div>
+                        <address class="header__tel">
+                            <a class="header__tel-link" href="tel:+79263306834">+7 926 330-68-34</a>
+                            <div class="header__tel-desc">Срочный вопрос</div>
+                        </address>
+                    </div>
+                </div>
+            </div>
+            <section class="hero__section">
+                <div class="hero__inner">
+                    <div class="hero__container container">
+                        <div class="hero__left">
+                            <div class="hero__content">
+                                <div class="hero__icon-1">
+                                    <img src="img/icon/moon.svg" alt="">
+                                    <img src="img/icon/arrow-right.svg" alt="">
+                                    <img src="img/icon/sunny.svg" alt="">
+                                    <div class="hero__icon-desc">В любое время дня и ночи</div>
+                                </div>
+                                <div class="hero__icon-2">
+                                    <img src="img/icon/cloudy.svg" alt="">
+                                    <img src="img/icon/arrow-right.svg" alt="">
+                                    <img src="img/icon/snowflake.svg" alt="">
+                                    <div class="hero__icon-desc">Вне зависимости от погодных условий</div>
+                                </div>
+                            </div>
+                            <h1 class="hero__title">Доставим газ за 4 часа</h1>
+                            <p class="hero__text">в любую точку Москвы и Московской области</p>
+                            <a class="hero__big-button big-button" href="#">
+                                <button class="big-button__btn">
+                                    Заказать доставку газа в газгольдер
+                                </button>
+                                <img class="big-button__img" src="img/icon/bg-button.svg" alt="">
+                            </a>
+                            <div class="hero__desc">Доставка газа всегда по актуальным ценам</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__img">
+                    <img src="img/content/hero-img.png" width="1037" height="477" alt="Изображение грузовика">
+                </div>
+            </section>
+        </header>
+        <main class="main"></main>
+        <footer class="footer"></footer>
+    </div>
+    
+    <div class="modal">
+        <div class="modal-window">
+            <a class="modal__cancel" href="#">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M23 1L12.25 11.75M1.5 22.5L12.25 11.75M12.25 11.75L1.5 1L23 22.5" stroke="#2194FF"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </a>
+            <h3 class="modal__title title">Доставим газ за 4 часа</h3>
+            <form class="modal__form" action="#">
+                <label class="modal__form-label-name field">
+                    <input class="field__input" type="text" placeholder="Имя">
+                    <span>Введите имя</span>
+                </label>
+                <label class="modal__form-label-tel field">
+                    <input class="field__input" type="tel" placeholder="Телефон">
+                    <span>Введите телефон</span>
+                </label>
+                <button class="button" type="submit">
+                    <button class="button__btn">
+                        Заказать доставку газа в газгольдер
+                    </button>
+                    <img class="button__img" src="img/icon/bg-button.svg" alt="">
+                </button>
+            </form>
+        </div>
+        <p class="modal-desc">Нажимая на кнопку, вы даёте согласие на обработку персональных данных и соглашаетесь с
+            условиями политики конфиденциальности</p>
+    </div>
+
+    <script src="js/inputmask.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
