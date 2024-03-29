@@ -1,0 +1,114 @@
+.main__response {
+  background-color: var(--second-bg-color);
+  padding-bottom: 40px;
+}
+
+.response__title {
+  color: var(--accent-color);
+  text-align: center;
+  padding-top: 37px;
+  margin-bottom: 27px;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  max-width: 1140px;
+  width: 100%;
+}
+
+.accordion__list {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  border: 1px solid #f1f1f133;
+  border-bottom: none;
+  padding: 24px 0px 24px 32px;
+  background: transparent;
+  width: 100%;
+  cursor: pointer;
+
+  transition: var(--transition);
+}
+
+.accordion:last-child {
+  border-bottom: 1px solid #f1f1f133;
+}
+
+.accordion__list-title {
+  font-family: var(--second-family);
+  font-weight: 700;
+  @include adaptiv-font(16, 14);
+  line-height: 137%;
+  text-transform: uppercase;
+  color: var(--text-color);
+
+  transition: var(--transition);
+}
+
+.accordion__list.active {
+  padding-bottom: 5px;
+}
+
+.accordion__list:hover .accordion__list-title {
+  color: var(--accent-color);
+}
+
+.accordion__list.active .accordion__list-title {
+  color: var(--accent-color);
+}
+
+.accordion__list-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 16px;
+  width: 16px;
+
+  transition: var(--transition);
+}
+
+.accordion__list:hover .accordion__list-icon {
+  transform: rotate(180deg);
+}
+
+.accordion__list.active .accordion__list-icon {
+  transform: rotate(180deg);
+}
+
+.accordion__list-icon path {
+  transition: var(--transition);
+}
+
+.accordion__list:hover .accordion__list-icon path {
+  fill: var(--accent-color);
+}
+
+.accordion__list.active .accordion__list-icon path {
+  fill: var(--accent-color);
+}
+
+.accordion__content {
+  font-family: var(--second-family);
+  @include adaptiv-font(16, 14);
+  line-height: 138%;
+  overflow: hidden;
+  box-sizing: content-box;
+  border: 1px solid #f1f1f133;
+  border-top: none;
+  border-bottom: none;
+  max-height: 0;
+  opacity: 0;
+  visibility: hidden;
+
+  transition: var(--transition);
+}
+
+.accordion__content.active {
+  visibility: visible;
+  opacity: 1;
+  padding: 16px 69px;
+
+  transition: var(--transition);
+}
